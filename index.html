@@ -1,49 +1,269 @@
 <!DOCTYPE HTML>
 <!--
-	Aerial by HTML5 UP
+	Spectral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Tobi Ola - Personal Website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Tobi Ola</h1>
-						<p> Purdue University &nbsp;&bull;&nbsp; Computer Science &nbsp;&bull;&nbsp; Sophomore</p>
-						<nav>
+<head>
+	<title>Tobi Ola - Personal Website</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/styles.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	<!-- Icon -->
+	<link rel="shortcut icon" href="images/icon.png" />
+
+</head>
+
+<body class="landing is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="index.html">Tobi Ola</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"><span>Menu</span></a>
+						<div id="menu">
 							<ul>
-								<li><a target="_blank" href="https://linkedin.com/in/tobiola" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a target="_blank" href="https://instagram.com/tobitola" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a target="_blank" href="https://github.com/tobiola" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a target="_blank" href="https://devpost.com/obitola" class="icon fa-code"><span class="label">Devpost</span></a></li>
-								<li><a target="_blank" href="mailto:oluwatobi.ola@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="generic.html">Generic</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								<li><a href="#">Sign Up</a></li>
+								<li><a href="#">Log In</a></li>
 							</ul>
-						</nav>
-					</header>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<!--span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span-->
-					</footer>
-
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<h2>Tobi Ola</h2>
+				<!--h4><span style="color: #C28E0E;">Purdue University</span><br>
+								Computer Science</h4-->
 			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+			<a href="#one" class="more scrolly">Learn More</a>
+		</section>
+
+		<!-- About -->
+		<section class="wrapper style1 special">
+			<div class="inner">
+				<header class="major">
+					<h2>About</h2>
+					<p>Hi, my name is Tobi Ola and I'm currenlty a sophomore at Purdue University studying computer science.</p>
+				</header>
+				<!--ul> class="icons major">
+					<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
+					<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
+					<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
+				</ul-->
+			</div>
+		</section>
+
+		<!-- Education -->
+		<section class="wrapper style5 special">
+			<div class="inner">
+
+				<header class="major">
+					<h2>Education</h2>
+				</header>
+
+				<!-- Purdue -->
+				<div>
+					<img class="education-img" src="images/purdue.png">
+					<h3>Purdue University</h3>
+					<h4>Canidate for Bachelors in Computer Science Honors</h4>
+					<p>Trustees Scholarship Recipient<br>
+					Aug 2018 - May 2021<br>
+					GPA: 3.8/4.0</p>
+				</div>
+<hr>
+				<!-- Parkway North-->
+				<div>
+					<img class="education-img" src="images/mit.png">
+					<h3>Mostec Summer Program</h3>
+					<h4>EECS Course</h4>
+					<h5>Summer 2016</h5>
+					<p>Reverse engineered a game application with Python and presented to over 200 people.</p>
+					<a class="button primary" target="_blank" href="./mostec.pdf">Evaluation</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Work Experience -->
+		<section class="wrapper style2 special">
+			<div class="inner">
+				<header class="major">
+					<h2>Work Experience</h2>
+				</header>
+
+				<div class="row my-5">
+					<div class="col-sm-4 vcenter">
+						<div class="circular-microsoft"></div>
+					</div>
+					<div class="col-sm-4">
+						<h5 class="mt-3">Explore Intern</h5>
+						<h3>Microsoft</h3>
+						<h5>Redmond, WA</h5>
+					</div>
+					<div class="col-sm-4">
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligulaconsequat consequat.</p>
+					</div>
+				</div>
+
+				<div class="row my-5">
+					<div class="col-sm-4 vcenter">
+						<div class="circular-clang"></div>
+					</div>
+					<div class="col-sm-4">
+						<h5 class="mt-3">Teaching Assistant</h5>
+						<h3>Programming in C</h3>
+						<h5>Purdue University</h5>
+					</div>
+					<div class="col-sm-4">
+							<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligulaconsequat consequat.</p>
+					</div>
+				</div>
+				<div class="row my-5">
+						<div class="col-sm-4 vcenter">
+							<div class="circular-mostec"></div>
+						</div>
+						<div class="col-sm-4">
+							<h5 class="mt-3">Residential Advisor</h5>
+							<h3>Mostec Program</h3>
+							<h5>Boston, MA</h5>
+						</div>
+						<div class="col-sm-4">
+								<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligulaconsequat consequat.</p>
+
+						</div>
+					</div>
+				<div class="row my-5">
+						<div class="col-sm-4 vcenter">
+							<div class="circular-myphts"></div>
+						</div>
+						<div class="col-sm-4">
+							<h5 class="mt-3">Software Engineering Intern</h5>
+							<h3>MyPHTS</h3>
+							<h5>St. Louis, MO</h5>
+						</div>
+						<div class="col-sm-4">
+								<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligulaconsequat consequat.</p>
+
+						</div>
+					</div>
+					<div class="row my-5">
+						<div class="col-sm-4 vcenter">
+							<div class="circular-spotmate"></div>
+						</div>
+						<div class="col-sm-4">
+							<h5 class="mt-3">Software Engineering Intern</h5>
+							<h3>SpotMate</h3>
+							<h5>West Lafayette, IN</h5>
+						</div>
+						<div class="col-sm-4">
+								<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligulaconsequat consequat.</p>
+
+						</div>
+					</div>
+			</div>
+		</section>
+
+
+		<!-- Projects -->
+		<section id="three" class="wrapper style3 special">
+			<div class="inner">
+				<header class="major">
+					<h2>Projects</h2>
+					<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+						fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+				</header>
+				<ul class="features">
+					<li class="vcenter">
+						<img class="project-img" src="images/dfd.jpg">
+						<h3>Dollar for Dollar</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula
+							consequat consequat.</p>
+					</li>
+					<li class="vcenter">
+						<img class="project-img" src="images/lexuseco.jpg">
+						<h3>Lexus Eco Challenge</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula
+							consequat consequat.</p>
+					</li>
+					<li class="vcenter">
+						<img class="project-img" src="images/robot.gif">
+						<h3>Engr 161 Robot</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula
+							consequat consequat.</p>
+					</li>
+					<li class="vcenter">
+						<img class="project-img" src="images/rov.gif">
+						<h3>ROV Stabilization</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula
+							consequat consequat.</p>
+					</li>
+					
+					<!--li> class="icon fa-heart-o">
+						<h3>Aenean Primis</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula
+							consequat consequat.</p>
+					</li>
+					<li class="icon fa-flag-o">
+						<h3>Tortor Ut</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula
+							consequat consequat.</p>
+					</li-->
+				</ul>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="cta" class="wrapper style4 special">
+			<div class="inner">
+				<header class="my-5">
+					<p class="my-5">contact me at oluwatobi.ola@gmail.com</p>
+				</header>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+					<li><a target="_blank" href="https://linkedin.com/in/tobiola" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a target="_blank" href="https://instagram.com/tobitola" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a target="_blank" href="https://github.com/tobiola" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a target="_blank" href="https://devpost.com/obitola" class="icon fa-code"><span class="label">Devpost</span></a></li>
+					<li><a target="_blank" href="mailto:oluwatobi.ola@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Tobi Ola</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>

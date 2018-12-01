@@ -1,0 +1,128 @@
+.education-img {
+    height: 200px;
+    width: 200px;
+}
+
+.icon {
+    text-align: center;
+}
+
+
+.project-img {
+    height: 200px;
+    width: 330px;
+    border-radius: 3px;
+    margin-bottom: 1em;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    text-align: center !important;
+}
+
+.circular-purdue {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("../../images/purdue.png");
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    background-repeat: repeat;
+    background-color: white;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.circular-mostec {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("../../images/mostec.png");
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    background-repeat: repeat;
+    background-color: white;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.circular-spotmate {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("../../images/spotmate.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    background-repeat: repeat;
+    background-color: white;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.circular-microsoft {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("../../images/microsoft.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    background-repeat: repeat;
+    background-color: white;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    }
+    .circular-clang {
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        background: url("../../images/clang.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        background-repeat: repeat;
+        background-color: white;
+        margin-left: auto !important;
+    margin-right: auto !important;
+        }
+        .circular-myphts {
+            width: 150px;
+            height: 150px;
+            border-radius: 150px;
+            -webkit-border-radius: 150px;
+            -moz-border-radius: 150px;
+            background: url("../../images/myphts.jpg");
+            background-size: 100% 100%;
+            background-position: center;
+            box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+            -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+            -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+            background-repeat: repeat;
+            background-color: white;
+            margin-left: auto !important;
+        margin-right: auto !important;
+            }
