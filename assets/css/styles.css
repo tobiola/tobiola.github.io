@@ -125,4 +125,59 @@
             background-color: white;
             margin-left: auto !important;
         margin-right: auto !important;
-            }
+}
+
+.circular-usa {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("../../images/usa.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    background-repeat: repeat;
+    background-color: white;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.circular-canada {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("../../images/canada.png");
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    background-repeat: repeat;
+    background-color: white;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.circular-nigeria {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("../../images/nigeria.png");
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    background-repeat: repeat;
+    background-color: white;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
